@@ -15,7 +15,7 @@ Run `docker run --rm -p 5000:5000 sirappsec/nodejs-vulnerable-app`
 
 ## Quick Start with npm
 ```bash
-git clone https://github.com/SirAppSec/vuln-node.js-express.js-app.git
+git clone https://github.com/jihanel-khouly/Full-Spectrum-Web-App-Hardening
 cd vuln-node.js-express.js-app
 npm install
 npm install nodemon
