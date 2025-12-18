@@ -12,7 +12,7 @@ Full-Spectrum-Web-App-Hardening/
 │
 ├── vuln-node-js-express.js-app/     # Vulnerable version (intentionally insecure)
 │
-├── safe-node-js-express.js-app/     # Secured & hardened version
+├── safe-node-js-express.js-app-/     # Secured & hardened version
 │
 └── README.md
 ```
