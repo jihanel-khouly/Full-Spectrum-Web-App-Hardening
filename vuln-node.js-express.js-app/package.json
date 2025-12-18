@@ -5,11 +5,11 @@
   "main": "src/server.js",
   "scripts": {
     "test": "mocha",
-    "start": "DEBUG=* NODE_ENV=development node src/server.js --verbose > app.log 2> app_err.log",
-    "dev": "NODE_ENV=development nodemon src/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/server.js",
+  "start": "node src/server.js",
     "lint": "eslint --fix ."
   },
-  "author": "Amit Srour",
+  "author": "jihan elkhouly",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
