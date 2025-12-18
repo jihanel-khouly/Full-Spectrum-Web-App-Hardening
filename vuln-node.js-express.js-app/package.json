@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Dangerous vulnerable node.js + express dockerized app",
   "main": "src/server.js",
-  "scripts": {
-    "test": "mocha",
-    "dev": "cross-env NODE_ENV=development nodemon src/server.js",
+"scripts": {
+  "test": "mocha",
+  "dev": "cross-env NODE_ENV=development nodemon src/server.js",
   "start": "node src/server.js",
-    "lint": "eslint --fix ."
-  },
+  "lint": "eslint --fix ."
+}
+,
   "author": "jihan elkhouly",
   "license": "ISC",
   "dependencies": {
